@@ -1,7 +1,7 @@
 package com.example.wisatadekatku.model
 
 data class Wisata(
-    val id: String,
+    val id: Int,
     val nama: String,
     val lokasi: String,
     val latitude: Double,

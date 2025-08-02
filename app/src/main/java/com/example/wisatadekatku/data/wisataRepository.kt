@@ -4,20 +4,21 @@ import com.example.wisatadekatku.model.Wisata
 import com.example.wisatadekatku.R
 
 object WisataRepository {
+
     fun getAllWisata(): List<Wisata> {
         return listOf(
             Wisata(
-                id = "1",
+                id = 1,
                 nama = "Taman Bungkul Surabaya",
                 lokasi = "Jalan Raya Darmo, Kelurahan Darmo, Kecamatan Wonokromo, Kota Surabaya, Jawa Timur",
                 latitude = -7.291062,
                 longitude = 112.739567,
-                deskripsi = "Taman Bungkul adalah taman kota modern yang menjadi ikon kota Surabaya. Dilengkapi dengan area bermain anak, jalur jogging, amfiteater, dan sentra kuliner, taman ini cocok untuk rekreasi keluarga dan tempat berkumpul anak muda di pusat kota.",
+                deskripsi = "Taman Bungkul adalah taman kota modern yang menjadi ikon kota Surabaya. Dilengkapi dengan area bermain anak, jalur jogging, amfiteater, dan sentral kuliner,taman ini cocok untuk rekreasi keluarga dan tempat berkumpul anak muda di pusat kota",
                 jarak = 1.2,
                 gambarResId = R.drawable.taman_bungkul
             ),
             Wisata(
-                id = "2",
+                id = 2,
                 nama = "Kebun Binatang Surabaya",
                 lokasi = "Jalan Setail No. 1, Darmo, Wonokromo, Surabaya, Jawa Timur 60241",
                 latitude = -7.2960962,
@@ -27,7 +28,7 @@ object WisataRepository {
                 gambarResId = R.drawable.kebun_binatang_surabaya
             ),
             Wisata(
-                id = "3",
+                id = 3,
                 nama = "Monumen Kapal Selam",
                 lokasi = "Jalan Pemuda Nomor 39, Embong Kaliasin, Kecamatan Genteng, Surabaya, Jawa Timur",
                 latitude = -7.265606,
@@ -37,7 +38,7 @@ object WisataRepository {
                 gambarResId = R.drawable.monumen_kapal_selam
             ),
             Wisata(
-                id = "4",
+                id = 4,
                 nama = "Taman Lansia Surabaya",
                 lokasi = "Jalan Kalimantan No. 12, Gubeng, Surabaya, Jawa Timur",
                 latitude = -7.270975,
@@ -47,7 +48,7 @@ object WisataRepository {
                 gambarResId = R.drawable.taman_lansia
             ),
             Wisata(
-                id = "5",
+                id = 5,
                 nama = "Alun-Alun Kota Surabaya",
                 lokasi = "Jalan Gubernur Suryo Nomor 15, Embong Kaliasin, Kecamatan Genteng, Surabaya, Jawa Timur",
                 latitude = -7.263968,
@@ -57,9 +58,9 @@ object WisataRepository {
                 gambarResId = R.drawable.alun_alun_surabaya
             ),
             Wisata(
-                id = "6",
+                id = 6,
                 nama = "Taman 10 November Surabaya",
-                lokasi = "Jalan Juwet, Kelurahan Tambaksari, Kecamatan Tambaksari, Surabaya, Jawa Timur, 60136",
+                lokasi = "Jalan Juwet, Tambaksari, Surabaya, Jawa Timur",
                 latitude = -7.251565,
                 longitude = 112.755073,
                 deskripsi = "Taman 10 Surabaya merupakan ruang terbuka hijau yang berada tepat depan Stadion Gelora 10 November. Taman ini cocok untuk bersantai, berolahraga ringan, dan menikmati suasana kota yang tenang di kawasan bersejarah Surabaya.",
@@ -67,7 +68,7 @@ object WisataRepository {
                 gambarResId = R.drawable.taman_senov
             ),
             Wisata(
-                id = "7",
+                id = 7,
                 nama = "Monumen Tugu Pahlawan",
                 lokasi = "Jl. Pahlawan, Alun-alun Contong, Kec. Bubutan, Surabaya",
                 latitude = -7.245483,
@@ -77,9 +78,9 @@ object WisataRepository {
                 gambarResId = R.drawable.monumen_tugu_pahlawan
             ),
             Wisata(
-                id = "8",
+                id = 8,
                 nama = "Museum Surabaya (Siola)",
-                lokasi = "Jl. Tunjungan No.1, Genteng, Kec. Genteng, Surabaya",
+                lokasi = "Jl. Tunjungan No.1, Genteng, Surabaya",
                 latitude = -7.2561990,
                 longitude = 112.7378197,
                 deskripsi = "Museum Surabaya atau Museum Siola menyajikan berbagai koleksi sejarah Kota Pahlawan, mulai dari dokumentasi pemerintahan, artefak masa kolonial, hingga perkembangan teknologi dan budaya lokal.",
@@ -87,9 +88,9 @@ object WisataRepository {
                 gambarResId = R.drawable.museum_surabaya
             ),
             Wisata(
-                id = "9",
+                id = 9,
                 nama = "Hutan Bambu Keputih",
-                lokasi = "Jl. Raya Marina Asri, Keputih, Kec. Sukolilo, Surabaya, Jawa Timur 60111",
+                lokasi = "Jl. Raya Marina Asri, Keputih, Surabaya",
                 latitude = -7.294112,
                 longitude = 112.801958,
                 deskripsi = "Hutan Bambu Keputih adalah destinasi wisata alam dengan suasana yang sejuk dan tenang. Daya tarik utama adalah lorong pohon bambu yang tinggi dan rimbun, menciptakan nuansa seperti di Jepang dan sangat cocok untuk berfoto.",
@@ -97,19 +98,19 @@ object WisataRepository {
                 gambarResId = R.drawable.hutan_bambu
             ),
             Wisata(
-                id = "10",
+                id = 10,
                 nama = "Taman Flora Surabaya (Bratang)",
-                lokasi = "Jl. Bratang Binangun, Baratajaya, Kec. Gubeng, Surabaya",
+                lokasi = "Jl. Bratang Binangun, Baratajaya, Surabaya",
                 latitude = -7.294158,
                 longitude = 112.761696,
-                deskripsi = "Taman Flora Bratang adalah taman edukasi dan konservasi flora di tengah kota Surabaya. Memiliki banyak koleksi tanaman, rumah anggrek, area satwa ringan, serta arena bermain anak-anak. Sangat cocok untuk rekreasi keluarga dan edukasi lingkungan.",
+                deskripsi = "Taman Flora Bratang adalah taman edukasi dan konservasi flora di tengah kota Surabaya. Memiliki banyak koleksi tanaman, rumah anggrek, area satwa ringan,serta arena bermain anak-anak. Sangat cocok untuk bereaksi keluarga dan edukasi lingkungan.",
                 jarak = 3.8,
                 gambarResId = R.drawable.taman_flora
             )
         )
     }
 
-    fun getWisataById(id: String): Wisata? {
+    fun getWisataById(id: Int): Wisata? {
         return getAllWisata().find { it.id == id }
     }
 }

@@ -12,6 +12,7 @@ fun BottomNavBar(navController: NavHostController) {
     val items = listOf(
         BottomNavItem("home", "Beranda", Icons.Default.Home),
         BottomNavItem("search", "Cari", Icons.Default.Search),
+        BottomNavItem("catatan", "Catatan", Icons.Default.Note),
         BottomNavItem("profile", "Profil", Icons.Default.Person)
     )
 
@@ -37,4 +38,8 @@ fun BottomNavBar(navController: NavHostController) {
     }
 }
 
-data class BottomNavItem(val route: String, val label: String, val icon: androidx.compose.ui.graphics.vector.ImageVector)
+data class BottomNavItem(
+    val route: String,
+    val label: String,
+    val icon: androidx.compose.ui.graphics.vector.ImageVector
+)

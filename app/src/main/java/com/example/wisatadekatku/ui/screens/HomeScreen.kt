@@ -30,7 +30,7 @@ fun HomeScreen(navController: NavController) {
             .fillMaxSize()
             .padding(16.dp)
     ) {
-        // Header ucapan
+
         Text(
             text = "Selamat Datang, $nama!",
             fontSize = 24.sp,
@@ -39,7 +39,7 @@ fun HomeScreen(navController: NavController) {
         )
         Spacer(modifier = Modifier.height(8.dp))
         Text(
-            text = "Selamat menjelajah wisata di sekitarmu 🍃",
+            text = "Selamat menjelajah wisata di sekitarmu",
             style = MaterialTheme.typography.bodyLarge
         )
 
@@ -83,4 +83,3 @@ fun HomeScreen(navController: NavController) {
         }
     }
 }
-

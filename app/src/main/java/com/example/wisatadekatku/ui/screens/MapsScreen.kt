@@ -29,7 +29,7 @@ import kotlin.math.roundToInt
 fun MapsScreen(
     wisataLatitude: Double,
     wisataLongitude: Double,
-    wisataId: String,
+    wisataId: Int,
     navController: NavController
 ) {
     val context = LocalContext.current
@@ -56,7 +56,6 @@ fun MapsScreen(
             }
     }
 
-    // Reverse geocoding untuk alamat wisata berdasarkan lat-lng
     fun ambilAlamatDariKoordinat() {
         val geocoder = Geocoder(context, Locale.getDefault())
         try {
@@ -116,4 +115,3 @@ fun hitungJarak(lat1: Double, lon1: Double, lat2: Double, lon2: Double): Double 
     val c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
     return (radius * c * 100).roundToInt() / 100.0
 }
-

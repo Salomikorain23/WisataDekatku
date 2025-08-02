@@ -23,7 +23,7 @@ import com.google.android.gms.location.LocationServices
 
 @OptIn(ExperimentalPermissionsApi::class)
 @Composable
-fun DetailScreen(wisataId: String, navController: NavController) {
+fun DetailScreen(wisataId: Int, navController: NavController) {
     val context = LocalContext.current
     val fusedLocationClient = remember {
         LocationServices.getFusedLocationProviderClient(context)
@@ -111,6 +111,7 @@ fun DetailScreen(wisataId: String, navController: NavController) {
 
                 Button(
                     onClick = {
+                        // 🛠️ ID dikonversi ke Int agar tidak error
                         navController.navigate("maps/${wisata.latitude}/${wisata.longitude}/${wisata.id}")
                     },
                     modifier = Modifier.weight(1f)
