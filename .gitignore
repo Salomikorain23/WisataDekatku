@@ -1,0 +1,19 @@
+# Berikut file ini yang di upload
+*.iml
+.gradle
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.log
+*.keystore
+# jangan upload file ini
+/local.properties
+local.properties
